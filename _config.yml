@@ -1,2 +1,3 @@
 name: Aram Ebtekar
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
