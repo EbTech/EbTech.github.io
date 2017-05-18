@@ -4,7 +4,7 @@ title: "Reflections on Imperative vs Declarative Programming"
 date: 2017-05-17
 categories: rust programming
 ---
-Woo finally! 1 day after my 1st anniversary as a professional, and 2 days after the Rust programming language's 2nd anniversary, time to launch this blog! The style and font size kinda sucks right now, so please bear with me as I try to figure stuff out. For now, this post is like a draft...
+Woo finally! 1 day after my 1st anniversary as a professional, and 2 days after the Rust programming language's 2nd anniversary, time to launch this blog! The style and font size kinda sucks right now, so please bear with me as I try to figure stuff out. For now, treat post like a draft...
 
 To preface with a warning: this blog will often broach subjects I'm wholly unqualified to talk about. I may be wrong about a lot of things, in which case you should correct me to prevent the spread of bad ideas! The subject of programming languages is ripe with deep theory, real-world controversy, and divergent schools of thought. With that said, I approach this subject not as a mere intellectual curiosity, but as a stakeholder. You, the reader, are a stakeholder too. As users of computing devices, we hope the systems on which we base our lives function reliably and safely. As developers, our power to subvert the laws of physics to our bidding depends on our ability to express the desired transformations, incantations, via a code. While there are many technologies needed for this to work, none interface between the minds of a human and machine as intimately as the programming language. A good language frees us from unnecessary mental burdens, prevents errors, and allows us to focus our full attention on solving the problem at hand.
 
@@ -66,6 +66,6 @@ So, is Rust imperative or declarative? The distinction doesn't seem too well-def
 
 As computers become more powerful, a variety of special-purpose high-level programming languages will take off. Machine learning libraries such as TensorFlow are typical examples, in which a programmer declares their intention and can omit at least some parts of the underlying algorithm. However, within the sphere of general-purpose high-performance code, it appears imperative programming has its benefits.
 
-[1] Note that even comparatively "low-level" languages may hide some details under abstractions, if it's assumed the programmer shouldn't worry about them. Java has garbage collection, and C++ leaves many choices to the compiler, which in turn leaves some choices to the operating system and hardware. The abstractions in C/C++/Rust aim to be either very low-cost. They may even be negative cost if the compiler is able to optimize better than a typical programmer.
+[1] Note that even comparatively "low-level" languages may hide some details under abstractions, if it's assumed the programmer shouldn't worry about them. Java has garbage collection, and C++ leaves many choices to the compiler, which in turn leaves some choices to the operating system and hardware. The abstractions in C/C++/Rust aim to be very low-cost. They may even be negative-cost if the compiler is able to optimize better than a typical programmer.
 
 [2] With a very important caveat: interactions with the "outside world", such as I/O operations, are not captured in Rust's type system.
