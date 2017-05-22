@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "Reflections on Imperative vs Declarative Programming"
-date: 2017-05-17
+layout: mathpost
+title:  "Reflections on Imperative vs Declarative Programming"
+date:   2017-05-17
 categories: rust programming
 ---
-Woo finally! 1 day after my 1st anniversary as a professional, and 2 days after the Rust programming language's 2nd anniversary, time to launch this blog! The style and font size kinda sucks right now, so please bear with me as I try to figure stuff out. For now, treat post like a draft...
+Woo finally! 1 day after my 1st anniversary as a `professional`, and 2 days after the Rust programming language's 2nd anniversary, time to launch this blog! The style and font size kinda sucks right now, so please bear with me as I try to figure stuff out. For now, treat post like a draft...
+
+$$a^2 + b^2 = c^2$$
 
 To preface with a warning: this blog will often broach subjects I'm wholly unqualified to talk about. I may be wrong about a lot of things, in which case you should correct me to prevent the spread of bad ideas! The subject of programming languages is ripe with deep theory, real-world controversy, and divergent schools of thought. With that said, I approach this subject not as a mere intellectual curiosity, but as a stakeholder. You, the reader, are a stakeholder too. As users of computing devices, we hope the systems on which we base our lives function reliably and safely. As developers, our power to subvert the laws of physics to our bidding depends on our ability to express the desired transformations, incantations, via a code. While there are many technologies needed for this to work, none interface between the minds of a human and machine as intimately as the programming language. A good language frees us from unnecessary mental burdens, prevents errors, and allows us to focus our full attention on solving the problem at hand.
 
