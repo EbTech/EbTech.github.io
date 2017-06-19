@@ -2,7 +2,8 @@
 layout: mathpost
 title:  "Out of Hiding"
 date:   2017-06-18
-categories: mad science study
+categories: learning
+tags: mad science study
 ---
 Woo finally, site launch! Pleased to meet y'all fancy people :)
 
@@ -12,7 +13,7 @@ After more than a year spent learning in the Silicon Valley, masquerading as som
 
 Er, why was that necessary? What are you, an agent of CERN? Fine, here's my story:
 
-5 years ago, I entered grad school with no clue of what I was trying to do or why. 3.5 years, several great friendships and life lessons later, I dropped out, still having hardly a clue. So I did the modern equivalent of picking up some books, and dedicated myself to studies like never before. Free of any structured requirements, inspired in equal parts by sheer curiosity and by the very real challenges faced at my first job, I put my heart in the work. Turns out the web is chock-full of quality free resources! It didn't cost me a dime to learn:
+5 years ago, I entered grad school with no clue of what I was trying to do or why. 3.5 years, several great friendships and life lessons later, I dropped out, still having hardly a clue. So I did the modern equivalent of picking up some books, and dedicated myself to studies like never before. Free of any structured requirements, inspired in equal parts by sheer curiosity and by the very real challenges faced at work, I put my heart in the work. Turns out the web is chock-full of quality free resources! It didn't cost a dime to learn:
 
 * [Information theory](http://www.inference.org.uk/mackay/itila/book.html)
 * [Statistical mechanics](http://stp.clarku.edu/notes)
@@ -31,4 +32,4 @@ As a result... I still don't know what the goal is :/ OK there is something. Ind
 
 What's next? Well, I'd like to share what I've learned in collaboration with you awesome people. You'll have to look to official channels for the Waymo stuff, but my roommate [Shriphani](http://shriphani.com) and I have some fun things planned of our own [^1], so please stay tuned!
 
-[^1]: Collectively, we are DeepFear :D You can already check out [our first collaboration]([http://blog.shriphani.com/2016/08/03/a-frame-that-listens]).
+[^1]: Collectively, we are DeepFear :D You can already check out [our first collaboration](http://blog.shriphani.com/2016/08/03/a-frame-that-listens).
