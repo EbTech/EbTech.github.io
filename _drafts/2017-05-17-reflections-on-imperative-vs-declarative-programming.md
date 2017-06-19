@@ -1,10 +1,10 @@
 ---
 layout: mathpost
 title:  "Reflections on Imperative vs Declarative Programming"
-date:   2017-05-17
+date:   2017-06-17
 categories: rust programming
 ---
-Woo finally! 1 day after my 1st anniversary as a `professional`, and 2 days after the Rust programming language's 2nd anniversary, time to launch this blog! The style and font size kinda sucks right now, so please bear with me as I try to figure stuff out. For now, treat post like a draft...
+Woo finally, time to launch a blog!
 
 $$a^2 + b^2 = c^2$$
 
@@ -44,7 +44,7 @@ fn sum_squares(&[i32] v) -> i32 {
 
 Here we avoided the use of mutable state. It looks more like abstract math, though you kinda have to squint to see it. If we want smarter behavior regarding parallelism and rounding errors, we'd still have to describe these aspects of the algorithm somehow. And for more advanced concepts such as the minimum spanning tree, following the simplest definition blindly would lead to an expensive brute force search.
 
-Truly declarative programming only makes sense for use cases where the bottleneck algorithm can be known by the compiler in advance, such as indexing in SQL, unification in Prolog, or backpropagation in TensorFlow [1]. For bare-metal programming, even in a so-called functional language, we can at best make the code look a little bit more like the "what", while still specifying the *how*.
+Truly declarative programming only makes sense for use cases where the bottleneck algorithm can be known by the compiler in advance, such as indexing in SQL, unification in Prolog, or backpropagation in TensorFlow [^1]. For bare-metal programming, even in a so-called functional language, we can at best make the code look a little bit more like the "what", while still specifying the *how*.
 
 That leaves point (2). This too is a good principle, but again the distinction becomes fuzzy. For instance, is this Rust function signature referentially transparent?
 
@@ -62,12 +62,12 @@ let (a, c) = do_something2(a, &b);
 
 Sometimes it's convenient to reuse names, to better reflect our mental model or our hardware's complexity model in the case of small modifications to a large object. Readers familiar will Rust will notice that rather than taking a reference to a, do_something2() *consumes* its old value, rendering it inaccessible afterwards. If you were interested in maintaining access to both values of a, before and after modifications, then what's needed is a *persistent data structure*. For more, see [Erik Demaine's lecture](https://www.youtube.com/watch?v=T0yzrZL1py0) on time travel.
 
-The above examples were all In Rust. The function signature specifies all the possible side-effects; thus, after a straightforward mental transformation, we get almost [2] full referential transparency. The compiler can apply similar reasoning to make various optimizations.
+The above examples were all In Rust. The function signature specifies all the possible side-effects; thus, after a straightforward mental transformation, we get almost [^2] full referential transparency. The compiler can apply similar reasoning to make various optimizations.
 
 So, is Rust imperative or declarative? The distinction doesn't seem too well-defined. I'd say the style is imperative. Rust code tends to describe quite explicitly how a computation will be performed. And yet it provides most of the practical benefits of a pure functional language (certainly the case when you consider C/C++ as the baseline, although that might just be because those are very poor imperative languages).
 
 As computers become more powerful, a variety of special-purpose high-level programming languages will take off. Machine learning libraries such as TensorFlow are typical examples, in which a programmer declares their intention and can omit at least some parts of the underlying algorithm. However, within the sphere of general-purpose high-performance code, it appears imperative programming has its benefits.
 
-[1] Note that even comparatively "low-level" languages may hide some details under abstractions, if it's assumed the programmer shouldn't worry about them. Java has garbage collection, and C++ leaves many choices to the compiler, which in turn leaves some choices to the operating system and hardware. The abstractions in C/C++/Rust aim to be very low-cost. They may even be negative-cost if the compiler is able to optimize better than a typical programmer.
+[^1]: Note that even comparatively "low-level" languages may hide some details under abstractions, if it's assumed the programmer shouldn't worry about them. Java has garbage collection, and C++ leaves many choices to the compiler, which in turn leaves some choices to the operating system and hardware. The abstractions in C/C++/Rust aim to be very low-cost. They may even be negative-cost if the compiler is able to optimize better than a typical programmer.
 
-[2] With a very important caveat: interactions with the "outside world", such as I/O operations, are not captured in Rust's type system.
+[^2]: With a very important caveat: interactions with the "outside world", such as I/O operations, are not captured in Rust's type system.

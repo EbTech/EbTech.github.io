@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Aram's fancy website!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://EbTech.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: EbTech
+twitter_username: KarmaRebate
 github_username:  EbTech
 
 # Build settings
