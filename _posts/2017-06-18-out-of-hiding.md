@@ -13,7 +13,7 @@ After more than a year spent learning in the Silicon Valley, masquerading as som
 
 Er, why was that necessary? What are you, an agent of CERN? Fine, here's my story:
 
-5 years ago, I entered grad school with no clue of what I was trying to do or why. 3.5 years, several great friendships and life lessons later, I dropped out, still having hardly a clue. So I did the modern equivalent of picking up some books, and dedicated myself to studies like never before. Free of any structured requirements, inspired in equal parts by sheer curiosity and by the very real challenges faced at work, I put my heart in the work. Turns out the web is chock-full of quality free resources! It didn't cost a dime to learn:
+5 years ago, I entered grad school with no clue of what I was trying to do or why. 3.5 years, several great friendships and life lessons later, I dropped out, still having hardly a clue. So I did the modern equivalent of picking up some books, and dedicated myself to studies like never before. Free of any structured requirements, inspired in equal parts by sheer curiosity and by the very real challenges faced at work, I put my heart in the work. Turns out the web is chock-full of quality free resources! It didn't cost a dime to learn about:
 
 * [Information theory](http://www.inference.org.uk/mackay/itila/book.html)
 * [Statistical mechanics](http://stp.clarku.edu/notes)
