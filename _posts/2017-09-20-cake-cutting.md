@@ -5,7 +5,7 @@ date:   2017-09-20
 categories: game-theory
 tags: cake cutting fair division rationality
 ---
-A classic challenge goes as follows: in the absence of precise measurements, how would you fairly divide a cake between two diners? The cake, naturally, is a metaphor: it stands for any basket of goods that should be divided between parties.
+A classic challenge goes as follows: in the absence of precise measurements, how would you fairly divide a cake between two diners? The cake, naturally, is a metaphor: it can stand for any basket of goods that should be divided between parties.
 
 In the case of two diners, the classic solution is [I cut, you choose](https://en.wikipedia.org/wiki/Divide_and_choose). If I let you inspect the pieces and choose, I can't easily screw you over. Knowing this, I have an incentive to make the most equal cut that I can manage. We'll each end up with about half the cake: I may lose only to the extent of my own measurement error when cutting; likewise, you may lose only to the extent of your measurement error when inspecting.
 
@@ -21,13 +21,13 @@ If you're rational according to the classical definition used by economists and 
 
 Spite seems like an expensive strategy. However, in practice, the implied threat of punishment should be enough to prevent me from getting greedy. If I think that you would take revenge, I'll take care to cut in a fair manner. 
 
-Classical game theory doesn't predict spite; one can argue this to be a flaw in the theory itself. Sure, we can invent workarounds, for instance by employing fancy social contracts or threats that are costly to lie about. However, a clearer abstraction that explains such behavior is given in the framework of Updateless Decision Theory. Perhaps I'll write about UDT, or the utility of good abstractions more generally, in a future post.
+Classical game theory doesn't predict spite; one can argue this to be a flaw in the theory itself. Sure, we can invent workarounds, for instance by employing fancy social contracts or threats that are costly to lie about. However, a clearer abstraction that explains such behavior is given in the framework of Updateless Decision Theory. Perhaps I'll write about UDT, or the power of good abstractions more generally, in a future post.
 
 Ok, so I still can't win against a spiteful chooser. It appears I'm doomed whenever the utility function is additive. Additive, here, is just a fancy way of saying that I enjoy each small piece of cake in isolation, without caring about special combinations.
 
 But now suppose the "cake" is actually a basket of different items, some combinations of which form recipes that I enjoy, while other combinations form recipes that you enjoy. To construct a very simple example, let's say the cake contains not only berries and cherries, but also chocolate chips and vanilla chips. I enjoy berries only when they're mixed with chocolate, and I enjoy cherries only when mixed with vanilla. For you it's the reverse: berries must have vanilla and cherries must have chocolate.
 
-Now as the cutter, I can cut the cake so that one piece contains mostly berries and chocolate, while the other contains mostly cherries and vanilla. No matter what you choose, I'll be happy and you'll be unhappy. A sweet victory!
+Now as the cutter, I can cut the cake so that one piece contains mostly berries and chocolate, while the other contains mostly cherries and vanilla. No matter what you choose, I'll be happy and you'll be unhappy. If I wanted to be nice, I could just split everything equally. However, if cake only had one (indivisible) topping of each type, then only the cutter can win. A sweet victory!
 
 ![Cake](http://oboi-dlja-stola.ru/file/1725/760x0/16:9/%D0%9A%D0%B5%D0%BA%D1%81-%D1%81-%D1%8F%D0%B3%D0%BE%D0%B4%D0%B0%D0%BC%D0%B8.jpg)
 
