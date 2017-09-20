@@ -27,7 +27,7 @@ Ok, so I still can't win against a spiteful chooser. It appears I'm doomed whene
 
 But now suppose the "cake" is actually a basket of different items, some combinations of which form recipes that I enjoy, while other combinations form recipes that you enjoy. To construct a very simple example, let's say the cake contains not only berries and cherries, but also chocolate chips and vanilla chips. I enjoy berries only when they're mixed with chocolate, and I enjoy cherries only when mixed with vanilla. For you it's the reverse: berries must have vanilla and cherries must have chocolate.
 
-Now as the cutter, I can cut the cake so that one piece contains mostly berries and chocolate, while the other contains mostly cherries and vanilla. No matter what you choose, I'll be happy and you'll be unhappy. If I wanted to be nice, I could just split everything equally. However, if cake only had one (indivisible) topping of each type, then only the cutter can win. A sweet victory!
+Now as the cutter, I can cut the cake so that one piece contains mostly berries and chocolate, while the other contains mostly cherries and vanilla. No matter what you choose, I'll be happy and you'll be unhappy. If I wanted to be nice, I could just split everything equally. However, if the cake only had one (indivisible) topping of each type, then only the cutter can win. A sweet victory!
 
 ![Cake](http://oboi-dlja-stola.ru/file/1725/760x0/16:9/%D0%9A%D0%B5%D0%BA%D1%81-%D1%81-%D1%8F%D0%B3%D0%BE%D0%B4%D0%B0%D0%BC%D0%B8.jpg)
 
