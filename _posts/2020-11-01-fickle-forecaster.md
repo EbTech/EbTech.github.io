@@ -17,7 +17,7 @@ First, a formal derivation. If you're not into the technicalities of probability
 
 # A formal interlude
 
-Let \\(X_t\\) be a bounded martingale adapted to the filtration \\(\mathcal F_t\\) [^1], and let \\(0 = T_0 \le T_1 \le \ldots \le T_N\\) be stopping times. Then,
+Let \\(X_t\\) be a bounded martingale adapted to the filtration \\(\mathcal F_t\\),[^1] and let \\(0 = T_0 \le T_1 \le \ldots \le T_N\\) be stopping times. Then,
 
 $$
 \begin{aligned}
@@ -43,12 +43,12 @@ This is a lot more than the expected \\(0.16\\). Of course, since this is a rand
 
 # Trading on volatility
 
-Aside from professional forecasters such as FiveThirtyEight or your local weather channel, another source of prediction series are public markets, such as PredictIt. There, you can purchase any number of contracts which pay out \$1 each, if the corresponding event comes to pass. If "Donald Trump wins the presidency" contracts sell for 40 cents a piece, one may say that the market of buyers and sellers have collectively estimated his chances at 40% [^2]. Assuming no interest, transaction fees, or other frictions in the market, "Donald Trump doesn't win the presidency" contracts must then sell for 60 cents a piece, ensuring that any two opposing contracts precisely cancel out.
+Aside from professional forecasters such as FiveThirtyEight or your local weather channel, another source of prediction series are public markets, such as PredictIt. There, you can purchase any number of contracts which pay out \$1 each, if the corresponding event comes to pass. If "Donald Trump wins the presidency" contracts sell for 40 cents apiece, one may say that the market of buyers and sellers have collectively estimated his chances at 40%.[^2] Assuming no interest, transaction fees, or other frictions in the market, "Donald Trump doesn't win the presidency" contracts must then sell for 60 cents apiece, ensuring that the two opposing contracts precisely cancel out.
 
 Now, let's say you don't know which event will come to pass, but you're confident that the prediction market is more volatile than a true martingale, meaning that its sum of squared deviations will exceed the expected \\(X_0 - X_0^2\\). Is it possible to bet on this outcome, making a profit if it comes to pass?
 
-Again, the answer is yes. The general strategy is to ensure that, at every point in time, we hold contracts on the side that's deemed *less* likely to win. The number of contracts we hold should be in proportion to the difference between the two sides. For example, if we buy one contract for 40 cents, then we should sell it when its price rises to 50 cents. If it then shoots up to 80 cents, we should buy three of the *opposite* contract, for 20 cents a piece, and so on. Can you prove that this method works?
+Again, the answer is yes. The general strategy is to ensure that, at every point in time, we hold contracts on the side that's deemed *less* likely to win. The number of contracts we hold should be in proportion to the difference between the two sides. For example, if we buy one contract for 40 cents, then we should sell it when its price rises to 50 cents. If it then shoots up to 80 cents, we should buy three of the *opposite* contract, for 20 cents apiece, and so on. Can you prove that this method works?
 
-[^1]: Roughly speaking, we can think of \\(\mathcal F_t\\) as all of the information known at time \\(t\\).
+[^1]: *Filtration* is a very technical term, but you can think of \\(\mathcal F_t\\) as all of the information known at time \\(t\\).
 
-[^2]: More precisely, 40% would be the *risk-neutral measure* of such an event.
+[^2]: More precisely, 40% would be what economists call the *risk-neutral measure* of such an event.
