@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hey, my name is Aram Ebtekar. I'm an applied mathematician and mad scientist. [CV/resume](../assets/resume.pdf)
+Hey, my name is Aram Ebtekar. I'm an applied mathematician of the mad scientist variety. [CV/resume](../assets/resume.pdf)
 
-If you want comments like mine on your blog, please consider using [my referral link](https://talk.hyvor.com?aff=6137) to support my work.
+If you like the comments section on my blog, here's a [referral link](https://talk.hyvor.com?aff=6137).
 
 ![Hiking](../assets/images/hiking.jpg)
