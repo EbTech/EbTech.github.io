@@ -145,8 +145,8 @@ In the sequel, we'll see that in pretty much any world where inference is possib
 
 [^4]: That said, we can start to appreciate why a basic education in computational thinking is fundamental to understanding nature, just as math and science courses are.
 
-[^5]: Ming Li and Paul Vitanyi. 2019. An Introduction to Kolmogorov Complexity and Its Applications (4th. ed.). Springer Publishing Company, Incorporated.
+[^5]: Ming Li and Paul Vitanyi, 2019. An Introduction to Kolmogorov Complexity and Its Applications (4th. ed.). Springer Publishing Company, Incorporated.
 
-[^6]: Rathmanner, S., & Hutter, M. (2011). A philosophical treatise of universal induction. Entropy, 13(6), 1076-1136.
+[^6]: Samuel Rathmanner and Marcus Hutter, 2011. A philosophical treatise of universal induction. Entropy, 13(6), 1076-1136.
 
 [^7]: The uncomputability of \\(K(x)\\) has to do with the fact that it's hard to distinguish a program that takes absurdly long to run, from one that never finishes. Since an absurdly slow program is fairly useless, we might decide to include resource bounds in our complexity measure (see Chapter 7 from Li & Viyanyi). For instance, while the Standard Model of particle physics might in principle describe all of life's processes, a supercomputer would struggle to simulate even one atom this way. To make useful inferences, we also need the theories of chemistry, biology, and the social sciences. Unlike \\(K(x)\\), resource-bounded measures can be computed by trying every possible program until the resource bounds are exhausted. Of course, this still isn't very practical, as the number of programs to try would be astronomical.

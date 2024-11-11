@@ -39,7 +39,7 @@ Using the example we started with, \\(X_0 = 0.2\\), so \\(X_0 - X_0^2 = 0.16\\).
 
 $$ (0.2 - 0.85)^2 + (0.85 - 0.05)^2 + (0.05 - 0)^2 = 1.065$$
 
-This is a lot more than the expected \\(0.16\\). Of course, since this is a random quantity, a lot more data would be needed to support the fickleness critique. The issue of statistical significance is beyond the scope of this blog post, but hopefully this discussion serves as a helpful start. As an exercise, you can try measuring this quantity for the prediction series of a well-known forecaster, such as FiveThirtyEight!
+This is a lot more than the expected \\(0.16\\). Is the gap statistically significant enough to support your critique that my predictions are too fickle? The ratio between a positive random variable and its expectation is known by statisticians as an *e-value*. In this case, it is \\(1.065 / 0.16 \approx 6.66\\). E-values between \\(4\\) and \\(10\\) are considered *substantial* evidence, while e-values above \\(10\\) are *strong* evidence. As an exercise, you can calculate the e-value for a prediction series from a well-known forecaster, such as FiveThirtyEight!
 
 # Trading on volatility
 
@@ -49,6 +49,10 @@ Now, let's say you don't know which event will come to pass, but you're confiden
 
 Again, the answer is yes. The general strategy is to ensure that, at every point in time, we hold contracts on the side that's deemed *less* likely to win. The number of contracts we hold should be in proportion to the difference between the two sides. For example, if we buy one contract for 40 cents, then we should sell it when its price rises to 50 cents. If it then shoots up to 80 cents, we should buy three of the *opposite* contract, for 20 cents apiece, and so on. Can you prove that this method works?
 
+In fact, every e-value can be interpreted as a betting strategy.[^3] The intuitive idea is that if you do not believe my probabilistic forecasts, you can propose a bet that I should be willing to accept if I believe my own forecasts. If you end up much richer, that serves as strong evidence against my forecasts.
+
 [^1]: *Filtration* is a very technical term, but you can think of \\(\mathcal F_t\\) as all of the information known at time \\(t\\).
 
 [^2]: More precisely, 40% would be what economists call the *risk-neutral measure* of such an event.
+
+[^3]: Aaditya Ramdas, Peter Grünwald, Vladimir Vovk, and Glenn Shafer, 2023. Game-theoretic statistics and safe anytime-valid inference. Statistical Science, 38(4), pp.576-601. The connection to e-values was added to this blog post in 2024.
